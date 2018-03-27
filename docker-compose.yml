@@ -1,0 +1,10 @@
+version: "2"
+services:
+  gateway:
+     restart: always
+     build:
+      context: ./base-image
+      dockerfile: Dockerfile
+     ports:
+      - 80:80
+
