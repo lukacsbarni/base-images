@@ -1,1 +1,1 @@
-Coravin API GW
+Coravin API GW Base
