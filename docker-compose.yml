@@ -2,6 +2,8 @@ version: "2"
 services:
   gateway:
      restart: always
+     environment:
+      - OWNER=blukacs
      build:
       context: ./base-image
       dockerfile: Dockerfile
